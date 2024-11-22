@@ -1,0 +1,54 @@
+body{
+  margin: 0px !important;
+  background: #000000;
+}
+h1, h2, h3{
+  font-family: Cinzel, sans-serif;
+  font-size: 60px;
+  color: white;
+}
+h4, h5, h6{
+  font-family: Bebas Neue, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+/* Poster */
+main{
+  background-image: url("../img/Poster.jpg");
+  height: 200vh;
+  width: 100%;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* Top Text */
+.Top > div > h1 {
+  padding: 0px 300px;
+  color: #ffffff;
+}
+.Top > div > h2{
+  padding: 0px 400px;
+  color: #ffffff;
+}
+/* Title */
+.Logo > div > h3{
+  padding: 10% 20%;
+}
+.Logo > div > h1{
+  padding: 10% 25%;
+}
+/* Bottom */
+.Bottom > div > h5{
+  padding: 5% 25%;
+}
+/* Image */
+img{
+  max-width: 10%;
+  max-height: 10%;
+  padding: 0% 11%;
+}
+/* Video */
+.Video > a{
+  position: absolute;
+  right: 50%;
+}
